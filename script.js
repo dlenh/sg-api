@@ -21,7 +21,6 @@ const item20 = document.querySelector("#item20")
 const item21 = document.querySelector("#item21")
 const item22 = document.querySelector("#item22")
 
-
 const total = document.querySelector(".result")
 const clicks = {
     c1: true,
@@ -52,13 +51,6 @@ fetch(`https://ghibliapi.herokuapp.com/films`)
     .then(res => res.json())
     .then(data => {
         console.log(data)
-        // document.querySelector("#castle").src = data[0].image
-        // document.querySelector("#fireflies").src = data[1].image
-        // data.forEach(x => {
-        //     const li = document.createElement("li")
-        //     li.innerText = x.title
-        //     document.querySelector("ul").appendChild(li)
-        // })
         for (i = 0; i < data.length; i++) {
             document.querySelector(`#item${i+1}`).src = data[i].image;
         }
