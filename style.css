@@ -2,9 +2,38 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lobster', cursive;
 }
 
 img {
     width: 8.5%;
     height: auto;
 }
+
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+h2 {
+    padding: 2vh 2vw;
+}
+
+h3 {
+    padding-top: 2vh;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
