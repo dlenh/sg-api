@@ -1,0 +1,23 @@
+{
+  "name": "studio-ghibli-api",
+  "version": "1.0.0",
+  "description": "https://dlenh.github.io/studio-ghibli-api/",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlenh/studio-ghibli-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlenh/studio-ghibli-api/issues"
+  },
+  "homepage": "https://github.com/dlenh/studio-ghibli-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
