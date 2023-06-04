@@ -1,3 +1,9 @@
+const express = require("express");
+const cors = require("cors");
+
+const app  = express();
+
+app.use(cors());
 // const item1 = document.querySelector("#item1")
 // const item2 = document.querySelector("#item2")
 // const item3 = document.querySelector("#item3")
